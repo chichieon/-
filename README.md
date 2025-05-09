@@ -1,51 +1,47 @@
-## 🛠️ 기술 스택
+# 박치언 | Data Analyst
 
-- **언어**: Python, SQL, JavaScript(기초)
-- **분석**: Pandas, Numpy, Scikit-learn, Prophet, Statsmodels
-- **시각화**: Matplotlib, Seaborn, Plotly, Dash, Streamlit
-- **크롤링/자동화**: BeautifulSoup, Selenium, Google Sheets API
-- **클라우드/배포**: Google Cloud Platform (Cloud Run, Cloud Functions), AWS Lambda
-- **툴**: Excel, Google Sheets, Git, GitHub
+## 📌 핵심 역량
 
----
-
-## 📂 프로젝트 경험
-
-### 1. 물류 수요 예측 및 리소스 최적화 시스템
-**목표**: 공공 물류 데이터를 활용한 지역별 택배 수요 예측 및 인력 자원 배치 제안  
-**주요 내용**:
-- 국토교통부 물류통계 데이터를 활용한 시계열 수요 분석 (Prophet)
-- 시나리오 기반 manpower 최적 배치 도출
-- Streamlit으로 대시보드 구현 및 Google Cloud Run 배포
-
-**성과**:
-- 실시간 분석 기반 의사결정 시뮬레이션 제공
-- 물류 운영 개선을 위한 KPI 시각화 기능 포함
+- Python, SQL 기반 데이터 분석 및 자동화
+- 웹 크롤링, Google Sheets/API 연동
+- GCP(BigQuery, Cloud Storage, Colab) 활용 경험
+- 시각화 도구: Looker Studio, Tableau, Streamlit
+- 물류/매출 데이터 분석 및 ERP 시뮬레이션 경험
+- 협업 및 비즈니스 커뮤니케이션 능력
 
 ---
 
-### 2. 광고 트렌드 자동 크롤링 및 시각화 대시보드
-**목표**: 네이버 쇼핑인사이트 및 구글 트렌드 데이터를 자동 수집해 광고 분석 리포트 제공  
-**주요 내용**:
-- Selenium으로 특정 키워드의 일간/주간 조회수 자동 크롤링
-- 광고 효율 지표 시각화 (Dash/Plotly)
-- Google Cloud Functions로 매일 리포트 자동 전송 구현
+## 💼 프로젝트 경험
 
-**성과**:
-- 마케팅 부서용 자동화된 광고 트렌드 리포트 시스템 개발
-- 크롤링 > 정제 > 시각화 > 공유까지 전 과정 자동화
+### 1. 물류 수요 예측 및 인력 배치 최적화
+- **기술 스택**: Python, Prophet, GCP BigQuery, Streamlit
+- **주요 내용**:
+  - 국토교통부 택배 물류 데이터를 분석하여 지역별 물동량 예측 모델 구축
+  - 기상청 데이터를 활용한 수요 변동성 보정
+  - 실시간 대시보드를 통해 인력 및 장비 배치 의사결정 지원
+- **성과**: 예측 정확도 87%, 예측 기반 배치 시나리오 제시
+
+### 2. 웹 크롤링 기반 상품 가격 분석 및 자동화 리포트
+- **기술 스택**: Python, BeautifulSoup, Google Sheets API, Data Studio
+- **주요 내용**:
+  - 주요 오픈마켓(11번가, G마켓)에서 건자재 품목 가격 정보 수집 자동화
+  - Google Sheets 자동 업데이트 및 시각화 리포트 생성
+  - Cloud Scheduler를 통한 주기적 실행 구현
+- **성과**: 수집 자동화 성공 및 가격 변동 리포트 주 1회 발행 체계 구축
+
+### 3. ERP 시뮬레이션 기반 매입/매출 분석 시스템
+- **기술 스택**: Python, Pandas, SQLite, Tableau Public
+- **주요 내용**:
+  - 가상의 상품 매입/매출 데이터 생성 및 ERP 포맷 구성
+  - 월간 손익/재고 현황 분석 리포트 제작
+  - Tableau 대시보드를 통해 회계 지표 및 트렌드 시각화
+- **성과**: 재무 흐름 시뮬레이션 및 운영 개선 인사이트 제시
 
 ---
 
-### 3. 건축자재 수요 추정 및 ERP 시뮬레이션
-**목표**: 공공 입찰 데이터를 기반으로 건축자재 수요 추정 및 구조화된 ERP 형식 데이터 생성  
-**주요 내용**:
-- 나라장터 API에서 입찰 공고 크롤링
-- 건자재별 수요 추세 예측 (회귀 + 시계열 혼합 모델)
-- Google Sheets 기반 ERP 형식 출력 및 Streamlit 인터페이스 구축
+## 🧰 사용 기술
 
-**성과**:
-- 데이터 기반 건축자재 수요 시뮬레이션 제공
-- 실무에 가까운 ERP 포맷 데이터 정리 능력 확보
-
----
+- **언어/도구**: Python, SQL, Google Sheets, Git, Excel
+- **클라우드**: Google Cloud Platform (BigQuery, Colab, Storage)
+- **시각화**: Looker Studio, Tableau, Streamlit, Matplotlib
+- **기타**: BeautifulSoup, Selenium, SQLite, ERP 시뮬레이션
